@@ -5,7 +5,6 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 deck = {0: "Ace", 1: "2", 2: "3", 3: "4", 4: "5", 5: "6", 6: "7", 7: "8",
          8: "9", 9: "10", 10: "Jack", 11: "Queen", 12: "King"}
 
-
 def draw2():
     cards = random.randint(0,12)
     card = deck[cards]
