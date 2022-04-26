@@ -123,7 +123,7 @@ def blackjack():
                 done = done
             else:
                 done = True          
-        if dealerAmount < 16 or dealerAmount == handAmount:
+        while dealerAmount < 16 or dealerAmount == handAmount:
             addedCard = draw1()
             dealerAmount += getValue(addedCard[0])
             print("The Dealers hand amount is",dealerAmount)
